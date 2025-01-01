@@ -1,0 +1,162 @@
+/* Basic styles */
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+/* Light and Dark Mode */
+.light-mode {
+  background-color: #f0f0f5;
+  color: #333;
+}
+
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #f0f0f5;
+}
+
+
+
+
+
+/* Basic styles */
+/* .App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transition: background-color 0.3s ease;
+} */
+
+/* Theme modes */
+/* .light-mode {
+  background-color: #f0f0f5;
+  color: #333;
+} */
+
+/* .dark-mode {
+  background-color: #1e1e1e;
+  color: #f0f0f5;
+} */
+
+/* Theme toggle button */
+/* .theme-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+} */
+
+/* .theme-toggle button {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: inherit;
+} */
+
+/* Chat window styling */
+/* .chat-window {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 400px;
+  max-height: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s ease;
+} */
+
+/* .dark-mode .chat-window {
+  background-color: #2c2c2c;
+} */
+
+/* Chat log styling */
+/* .chat-log {
+  flex-grow: 1;
+  padding: 10px 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+} */
+
+/* Shared styles for messages */
+/* .message {
+  max-width: 70%;
+  margin: 8px 0;
+  padding: 8px 12px;
+  border-radius: 15px;
+  word-wrap: break-word;
+} */
+
+/* User message styling */
+/* .user-message {
+  background-color: #34a853;
+  color: white;
+  align-self: flex-end;
+  text-align: right;
+} */
+
+/* Bot message styling */
+/* .bot-message {
+  background-color: #e0e0e0;
+  color: black;
+  align-self: flex-start;
+  text-align: left;
+} */
+
+/* .dark-mode .bot-message {
+  background-color: #444;
+  color: white;
+} */
+
+/* Input area styling */
+/* .input-area {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+} */
+
+/* input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-right: 10px;
+} */
+
+/* .dark-mode input {
+  background-color: #444;
+  color: white;
+  border: 1px solid #555;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #34a853;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #2c8b43;
+} */
+
+/* Button hover for dark mode */
+/* .dark-mode button {
+  background-color: #4caf50;
+}
+
+.dark-mode button:hover {
+  background-color: #3e8c3c;
+} */
